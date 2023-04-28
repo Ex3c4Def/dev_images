@@ -6,12 +6,12 @@ A split keyboard with 4x6 vertically staggered keys and thumb keys.
 	- RGB Matrix is enabled as default in rules.mk
 	- the effects can be configured in config.h 
 <img src="https://github.com/Ex3c4Def/dev_images/blob/main/kimiko_rev2_layout_position_matrix.png" width="800" />
-	Shows the positioning of switches and led as defined in the info.json
-	Text in the boxes:\  
-		Layout Label\  
-		Matrix Position\  
-		LED flag for type of switch\  
-  	
+	The image shows the positioning of switches and led as defined in the info.json
+	Text in the boxes:<br /> 
+		Layout Label<br /> 
+		Matrix Position<br /> 
+		LED flag for type of switch<br /> 
+<br />  	
 - Support for 1 rotary encoder per side (two possible positions)  
   
 - Support for 1 pointing device (two possible positions)  
