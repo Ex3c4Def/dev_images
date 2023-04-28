@@ -7,22 +7,24 @@ A split keyboard with 4x6 vertically staggered keys and thumb keys.
 	- the effects can be configured in config.h 
 <img src="https://github.com/Ex3c4Def/dev_images/blob/main/kimiko_rev2_layout_position_matrix.png" width="800" />
 	Shows the positioning of switches and led as defined in the info.json
-	Text in the boxes: /n
-	Layout Label / Matrix Position / LED flag for type of switch
-	
-- Support for 1 rotary encoder per side (two possible positions)
-
-- Support for 1 pointing device (two possible positions)
-	- Pimoroni Trackball is enabled as default in rules.mk
-	- can be configured in config.h, e.g. for roation at different mounting position
+	Text in the boxes:  
+		Layout Label  
+		Matrix Position  
+		LED flag for type of switch  
+  	
+- Support for 1 rotary encoder per side (two possible positions)  
+  
+- Support for 1 pointing device (two possible positions)  
+	- Pimoroni Trackball is enabled as default in rules.mk  
+	- can be configured in config.h, e.g. for roation at different mounting position  
 	- RGB lightning can be used for layer indication, but the Pimoroni Trackballmust be on the master side for this  
-	
-- Support for 1 OLED display per side
-	- 128x32 or 128x64 are supported
-	- with 1 OLED on each side, they have to be the same
-	- default configuration for 128x32 OLED
-	- 128x64 OLED can be set with #define OLED_DISPLAY_128X64 in config.h (already prepared)
-
+  	
+- Support for 1 OLED display per side  
+	- 128x32 or 128x64 are supported  
+	- with 1 OLED on each side, they have to be the same  
+	- default configuration for 128x32 OLED  
+	- 128x64 OLED can be set with #define OLED_DISPLAY_128X64 in config.h (already prepared)  
+   
 * Keyboard Maintainer: [BenRoe](https://github.com/BenRoe/) [@keycapsss](https://twitter.com/keycapsss)
 * Hardware Supported: Pro Micro 5V/16Mhz and compatible
 * Hardware Availability: [keycapsss.com](https://keycapsss.com)
@@ -34,5 +36,8 @@ See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_to
 
 For debugging:
 <img src="https://github.com/Ex3c4Def/dev_images/blob/main/kimiko_rev2_layout_position_schematic.png" width="800" />
-	Text in the boxes: 
-	Layout Label / switch number in schematic / led number in schematic / led flag for type of switch
+	Text in the boxes:  
+		Layout Label  
+		switch number in schematic  
+		led number in schematic  
+		led flag for type of switch
