@@ -7,10 +7,7 @@ A split keyboard with 4x6 vertically staggered keys and thumb keys.
 	- the effects can be configured in config.h 
 <img src="https://github.com/Ex3c4Def/dev_images/blob/main/kimiko_rev2_layout_position_matrix.png" width="800" />
 	Shows the positioning of switches and led as defined in the info.json
-	Text in the boxes:
-	- Layout Label
-	- Matrix Position
-	- LED flag for type of switch
+	Text in the boxes: Layout Label / Matrix Position / LED flag for type of switch
 	
 - Support for 1 rotary encoder per side (two possible positions)
 
@@ -36,8 +33,4 @@ See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_to
 
 For debugging:
 <img src="https://github.com/Ex3c4Def/dev_images/blob/main/kimiko_rev2_layout_position_schematic.png" width="800" />
-	Text in the boxes:
-		- Layout Label
-		- switch number in schematic
-		- led number in schematic
-		- LED flag for type of switch
+	Text in the boxes: Layout Label / switch number in schematic / led number in schematic / led flag for type of switch
